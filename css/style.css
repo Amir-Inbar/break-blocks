@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+.canvas-container {
+  margin-block-start: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  border: 1px solid #222;
+}

@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
-  <body>
-    <script src="lib/p5.min.js"></script>
-    <script src="canvas.js"></script>
+  <body onload="onInit()" onkeydown="navigateScroll(event)">
+    <div class="canvas-container">
+      <canvas height="700" width="1000"></canvas>
+    </div>
+    <script src="ball.controller.js"></script>
   </body>
 </html>
